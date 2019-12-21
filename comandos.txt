@@ -1,0 +1,37 @@
+--complexidade ciclomática: quanto mais caminhos o programa tiver, mais complexo e de difícil manutenção é o código.
+
+-- NPM: inicializador do node package manager, que é o gerenciador de pacotes do Node
+-- Tornar um projeto node 
+npm init
+
+-- Framework usado para falicitar a definição de ROTAS no App Node
+npm install express@4.16.3 --save-exact
+
+--Executar o servidor
+node server.js
+
+-- Biblioteca que automaticamente atualiza os arquivos no servidor a cada salvamento do projeto
+-- Instalando o nodemon que possibilita isso
+npm install nodemon@1.18.4 --save-dev -save-exact
+
+-- Dessa vez, estamos indicando que queremos instalar o módulo nodemon de maneira global ou seja, 
+para todo o sistema operacional , de modo que possamos utilizá-lo a partir do Prompt de Comando.
+npm install -g nodemon@1.18.4 --save-exact
+
+--Executar o servidor com nodemon
+nodemon server.js  
+ou 
+npm start
+
+--Marko Framework para gerar templates HTML
+npm install marko@4.13.4-1 --save-exact
+
+--Instalar o banco de SqLite
+npm install sqlite3@4.0.2 --save-exact
+
+--Instalar o body-parser que é um middleware que funciona como filtro
+npm install body-parser@1.18.3 --save-exact
+
+
+--Instalar o method-override que é um middleware que substitui o METHOD
+npm install method-override@3.0.0 --save-exact
